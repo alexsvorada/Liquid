@@ -13,7 +13,7 @@ public final class Items {
 
     public static final ItemGroup CATEGORY = new ItemGroup(
         new NamespacedKey(Liquid.getInstance(), "liquids"),
-        new CustomItemStack(Material.LAVA_BUCKET, "&6Liquids")
+        CustomItemStack.create(Material.LAVA_BUCKET, "&6Liquids")
     );
 
     public static final SlimefunItemStack MELTER = new SlimefunItemStack(

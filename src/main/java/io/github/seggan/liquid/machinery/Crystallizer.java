@@ -24,7 +24,7 @@ public class Crystallizer extends AContainer implements RecipeDisplayItem {
         for (SlimefunItemStack liquid : liquids.keySet()) {
             registerRecipe(
                 60,
-                new ItemStack[]{liquid},
+                new ItemStack[]{liquid.item()},
                 new ItemStack[]{liquids.get(liquid), new ItemStack(Material.BUCKET)}
             );
         }

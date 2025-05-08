@@ -40,172 +40,172 @@ public class Mixer extends LContainer implements RecipeDisplayItem {
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.ALUMINUM_INGOT),
-                liquids.get(SlimefunItems.ZINC_INGOT), liquids.get(SlimefunItems.STEEL_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(SlimefunItems.ALUMINUM_INGOT.item()).item(),
+                liquids.get(SlimefunItems.ZINC_INGOT.item()).item(), liquids.get(SlimefunItems.STEEL_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.HARDENED_METAL_INGOT), 4)
+                new SlimefunItemStack(liquids.get(SlimefunItems.HARDENED_METAL_INGOT.item()), 4).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.TIN_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(SlimefunItems.TIN_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.BRONZE_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.BRONZE_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.ZINC_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(SlimefunItems.ZINC_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.BRASS_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.BRASS_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.BRONZE_INGOT), liquids.get(SlimefunItems.ALUMINUM_INGOT)
+                liquids.get(SlimefunItems.BRONZE_INGOT.item()).item(), liquids.get(SlimefunItems.ALUMINUM_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRONZE_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRONZE_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.BRASS_INGOT), liquids.get(SlimefunItems.ALUMINUM_INGOT)
+                liquids.get(SlimefunItems.BRASS_INGOT.item()).item(), liquids.get(SlimefunItems.ALUMINUM_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRASS_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRASS_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.ALUMINUM_INGOT),
-                liquids.get(SlimefunItems.TIN_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(SlimefunItems.ALUMINUM_INGOT.item()).item(),
+                liquids.get(SlimefunItems.TIN_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRONZE_INGOT), 3)
+                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRONZE_INGOT.item()), 3).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.ALUMINUM_INGOT),
-                liquids.get(SlimefunItems.ZINC_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(SlimefunItems.ALUMINUM_INGOT.item()).item(),
+                liquids.get(SlimefunItems.ZINC_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRASS_INGOT), 3)
+                new SlimefunItemStack(liquids.get(SlimefunItems.ALUMINUM_BRASS_INGOT.item()), 3).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.CARBON), liquids.get(VanillaItems.IRON_INGOT)
+                liquids.get(SlimefunItems.CARBONADO.item()).item(), liquids.get(VanillaItems.IRON_INGOT).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.STEEL_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.STEEL_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.ALUMINUM_INGOT),
-                liquids.get(SlimefunItems.GOLD_12K), liquids.get(SlimefunItems.HARDENED_METAL_INGOT),
-                liquids.get(SlimefunItems.LEAD_INGOT), liquids.get(SlimefunItems.STEEL_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT).item(), liquids.get(SlimefunItems.ALUMINUM_INGOT).item(),
+                liquids.get(SlimefunItems.GOLD_12K.item()).item(), liquids.get(SlimefunItems.HARDENED_METAL_INGOT.item()).item(),
+                liquids.get(SlimefunItems.LEAD_INGOT.item()).item(), liquids.get(SlimefunItems.STEEL_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.REINFORCED_ALLOY_INGOT), 3),
-                new SlimefunItemStack(liquids.get(Items.SLAG), 3)
+                new SlimefunItemStack(liquids.get(SlimefunItems.REINFORCED_ALLOY_INGOT.item()), 3).item(),
+                new SlimefunItemStack(liquids.get(Items.SLAG.item()), 3).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(SlimefunItems.GOLD_12K),
-                liquids.get(SlimefunItems.TIN_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(SlimefunItems.GOLD_12K.item()).item(),
+                liquids.get(SlimefunItems.TIN_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.CORINTHIAN_BRONZE_INGOT), 2),
-                liquids.get(Items.SLAG)
+                new SlimefunItemStack(liquids.get(SlimefunItems.CORINTHIAN_BRONZE_INGOT.item()), 2).item(),
+                liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.TIN_INGOT), liquids.get(SlimefunItems.LEAD_INGOT)
+                liquids.get(SlimefunItems.TIN_INGOT.item()).item(), liquids.get(SlimefunItems.LEAD_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.SOLDER_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.SOLDER_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.SILVER_INGOT), liquids.get(SlimefunItems.COPPER_INGOT)
+                liquids.get(SlimefunItems.SILVER_INGOT.item()).item(), liquids.get(SlimefunItems.COPPER_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.BILLON_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.BILLON_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.SILICON), liquids.get(VanillaItems.IRON_INGOT)
+                liquids.get(SlimefunItems.SILICON).item(), liquids.get(VanillaItems.IRON_INGOT).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.FERROSILICON), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.FERROSILICON.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.HARDENED_METAL_INGOT), liquids.get(VanillaItems.REDSTONE)
+                liquids.get(SlimefunItems.HARDENED_METAL_INGOT.item()).item(), liquids.get(VanillaItems.REDSTONE).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.REDSTONE_ALLOY), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.REDSTONE_ALLOY.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COPPER_INGOT), liquids.get(VanillaItems.IRON_INGOT)
+                liquids.get(SlimefunItems.COPPER_INGOT.item()).item(), liquids.get(VanillaItems.IRON_INGOT).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.NICKEL_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.NICKEL_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.NICKEL_INGOT), liquids.get(VanillaItems.IRON_INGOT)
+                liquids.get(SlimefunItems.NICKEL_INGOT.item()).item(), liquids.get(VanillaItems.IRON_INGOT).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.COBALT_INGOT), 2)
+                new SlimefunItemStack(liquids.get(SlimefunItems.COBALT_INGOT.item()), 2).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.COBALT_INGOT), liquids.get(SlimefunItems.NICKEL_INGOT),
-                liquids.get(SlimefunItems.ALUMINUM_INGOT)
+                liquids.get(SlimefunItems.COBALT_INGOT.item()).item(), liquids.get(SlimefunItems.NICKEL_INGOT.item()).item(),
+                liquids.get(SlimefunItems.ALUMINUM_INGOT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(SlimefunItems.MAGNET), 3)
+                new SlimefunItemStack(liquids.get(SlimefunItems.MAGNESIUM_INGOT.item()), 3).item()
             }
         );
         registerRecipe(
             3,
             new ItemStack[]{
-                liquids.get(SlimefunItems.MAGNESIUM_INGOT), crystals.get(SlimefunItems.SALT)
+                liquids.get(SlimefunItems.MAGNESIUM_INGOT.item()).item(), crystals.get(SlimefunItems.SALT.item()).item()
             },
             new ItemStack[]{
-                new SlimefunItemStack(crystals.get(SlimefunItems.MAGNESIUM_SALT), 2)
+                new SlimefunItemStack(crystals.get(SlimefunItems.MAGNESIUM_SALT.item()), 2).item()
             }
         );
     }
@@ -216,7 +216,7 @@ public class Mixer extends LContainer implements RecipeDisplayItem {
         List<ItemStack> displayRecipes = new ArrayList<>(recipes.size() * 2);
 
         for (MachineRecipe recipe : recipes) {
-            displayRecipes.add(new CustomItemStack(
+            displayRecipes.add(CustomItemStack.create(
                 new ItemStack(Material.LAVA_BUCKET, recipe.getInput().length),
                 "&3Multiple Input Recipe")); // Can't exactly show all 9 items at once
             displayRecipes.add(recipe.getOutput()[0]); // Main output should be the first item

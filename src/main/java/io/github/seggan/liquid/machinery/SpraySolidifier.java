@@ -23,18 +23,18 @@ public class SpraySolidifier extends AContainer {
         BiMap<ItemStack, SlimefunItemStack> dusts = LiquidMetal.getLiquidDusts().inverse();
         BiMap<ItemStack, SlimefunItemStack> liquids = LiquidMetal.getLiquids();
         for (ItemStack solidDust : dusts.keySet()) {
-            ItemStack solid = liquids.get(solidDust);
+            ItemStack solid = liquids.get(solidDust).item();
             registerRecipe(
                 2,
                 new ItemStack[]{solid},
-                new ItemStack[]{dusts.get(solidDust), new ItemStack(Material.BUCKET)}
+                new ItemStack[]{dusts.get(solidDust).item(), new ItemStack(Material.BUCKET)}
             );
         }
     }
 
     @Override
     public ItemStack getProgressBar() {
-        return SlimefunItems.IRON_DUST;
+        return SlimefunItems.IRON_DUST.item();
     }
 
     @Override

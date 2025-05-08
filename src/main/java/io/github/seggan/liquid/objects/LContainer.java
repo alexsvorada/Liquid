@@ -146,7 +146,7 @@ public abstract class LContainer extends SlimefunItem implements EnergyNetCompon
             preset.addItem(i, ChestMenuUtils.getOutputSlotTexture(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(22, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "),
+        preset.addItem(22, CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "),
             ChestMenuUtils.getEmptyClickHandler());
 
         for (int i : getOutputSlots()) {
@@ -319,7 +319,7 @@ public abstract class LContainer extends SlimefunItem implements EnergyNetCompon
                 }
                 progress.put(b, timeleft - 1);
             } else {
-                inv.replaceExistingItem(22, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "));
+                inv.replaceExistingItem(22, CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " "));
 
                 for (ItemStack output : processing.get(b).getOutput()) {
                     inv.pushItem(output.clone(), getOutputSlots());

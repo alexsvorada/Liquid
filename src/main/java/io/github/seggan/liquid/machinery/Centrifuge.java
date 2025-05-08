@@ -32,109 +32,109 @@ public class Centrifuge extends LContainer implements RecipeDisplayItem {
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_4K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_4K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_6K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_6K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_6K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_6K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_8K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_8K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_8K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_8K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_10K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_10K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_10K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_10K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_12K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_12K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_12K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_12K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_14K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_14K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_14K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_14K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_16K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_16K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_16K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_16K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_18K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_18K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_18K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_18K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_20K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_20K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_20K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_20K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_22K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_22K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_22K), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.GOLD_22K.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.GOLD_24K), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.GOLD_24K.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.STEEL_INGOT), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.STEEL_INGOT.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(SlimefunItems.DAMASCUS_STEEL_INGOT), liquids.get(Items.SLAG)
+                liquids.get(SlimefunItems.DAMASCUS_STEEL_INGOT.item()).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                liquids.get(SlimefunItems.DAMASCUS_STEEL_INGOT), new ItemStack(Material.BUCKET)
+                liquids.get(SlimefunItems.DAMASCUS_STEEL_INGOT.item()).item(), new ItemStack(Material.BUCKET)
             },
             new ItemStack[]{
-                liquids.get(VanillaItems.IRON_INGOT), liquids.get(Items.SLAG)
+                liquids.get(VanillaItems.IRON_INGOT).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
 
@@ -143,64 +143,64 @@ public class Centrifuge extends LContainer implements RecipeDisplayItem {
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.IRON_ORE), new ItemStack(Material.BUCKET, 3)
+                ores.get(VanillaItems.IRON_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(VanillaItems.IRON_INGOT), 3), liquids.get(Items.SLAG)
+                new SlimefunItemStack(liquids.get(VanillaItems.IRON_INGOT), 3).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.GOLD_ORE), new ItemStack(Material.BUCKET, 3)
+                ores.get(VanillaItems.GOLD_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(VanillaItems.GOLD_INGOT), 3), liquids.get(Items.SLAG)
+                new SlimefunItemStack(liquids.get(VanillaItems.GOLD_INGOT), 3).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.LAPIS_ORE), new ItemStack(Material.BUCKET, 3)
+                ores.get(VanillaItems.LAPIS_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-                new SlimefunItemStack(crystals.get(VanillaItems.LAPIS), 3), liquids.get(Items.SLAG)
+                new SlimefunItemStack(crystals.get(VanillaItems.LAPIS), 3).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.DIAMOND_ORE), new ItemStack(Material.BUCKET, 3)
+                ores.get(VanillaItems.DIAMOND_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-                new SlimefunItemStack(crystals.get(VanillaItems.DIAMOND), 3), liquids.get(Items.SLAG)
+                new SlimefunItemStack(crystals.get(VanillaItems.DIAMOND), 3).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.EMERALD_ORE), new ItemStack(Material.BUCKET, 3)
+                ores.get(VanillaItems.EMERALD_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-                new SlimefunItemStack(crystals.get(VanillaItems.EMERALD), 3), liquids.get(Items.SLAG)
+                new SlimefunItemStack(crystals.get(VanillaItems.EMERALD), 3).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.REDSTONE_ORE), new ItemStack(Material.BUCKET, 3)
+                ores.get(VanillaItems.REDSTONE_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-                new SlimefunItemStack(liquids.get(VanillaItems.REDSTONE), 3), liquids.get(Items.SLAG)
+                new SlimefunItemStack(liquids.get(VanillaItems.REDSTONE), 3).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
         registerRecipe(
             5,
             new ItemStack[]{
-                ores.get(VanillaItems.NETHERITE_ORE)
+                ores.get(VanillaItems.NETHERITE_ORE).item(), new ItemStack(Material.BUCKET, 3)
             },
             new ItemStack[]{
-               liquids.get(VanillaItems.NETHERITE), liquids.get(Items.SLAG)
+               liquids.get(VanillaItems.NETHERITE).item(), liquids.get(Items.SLAG.item()).item()
             }
         );
     }
@@ -211,7 +211,7 @@ public class Centrifuge extends LContainer implements RecipeDisplayItem {
         List<ItemStack> displayRecipes = new ArrayList<>(recipes.size() * 2);
 
         for (MachineRecipe recipe : recipes) {
-            displayRecipes.add(new CustomItemStack(
+            displayRecipes.add(CustomItemStack.create(
                 recipe.getInput()[0], recipe.getInput()[0].getItemMeta().getDisplayName() + " and buckets (amounts vary)")); // Can't exactly show all 9 items at once
             displayRecipes.add(recipe.getOutput()[0]); // Main output should be the first item
         }

@@ -31,7 +31,7 @@ public class MixerCategory extends FlexItemGroup {
 
     public MixerCategory() {
         super(new NamespacedKey(Liquid.getInstance(), "Mixer_recipes_category"),
-            new CustomItemStack(Items.MIXER.getType(), "&6Mixer Recipes"));
+            CustomItemStack.create(Items.MIXER.item(), "&6Mixer Recipes"));
     }
 
     @Override
@@ -53,9 +53,8 @@ public class MixerCategory extends FlexItemGroup {
 
         menu.setEmptySlotsClickable(false);
 
-        menu.addItem(1, new CustomItemStack(ChestMenuUtils.getBackButton(player, "",
-            ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide")))
-        );
+        menu.addItem(1, ChestMenuUtils.getBackButton(player, "",
+            ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide")));
 
         menu.addMenuClickHandler(1, (pl, slot, item, action) -> {
             Slimefun.getRegistry().getSlimefunGuide(mode).openMainMenu(playerProfile, 1);
@@ -85,9 +84,8 @@ public class MixerCategory extends FlexItemGroup {
             menu.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        menu.addItem(1, new CustomItemStack(ChestMenuUtils.getBackButton(player, "",
-            ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide")))
-        );
+        menu.addItem(1, ChestMenuUtils.getBackButton(player, "",
+            ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide")));
         menu.addMenuClickHandler(1, (pl, s, is, action) -> {
             open(player, p, SlimefunGuideMode.SURVIVAL_MODE);
             return false;

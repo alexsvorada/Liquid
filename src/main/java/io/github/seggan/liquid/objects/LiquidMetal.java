@@ -23,50 +23,50 @@ public class LiquidMetal extends SlimefunItem {
     private static final HashBiMap<ItemStack, SlimefunItemStack> MELTED_ORES = HashBiMap.create();
     private static final HashBiMap<SlimefunItemStack, ItemStack> MELTED_DUSTS = HashBiMap.create();
     private static final List<ItemStack> metals = Arrays.asList(
-        SlimefunItems.ALUMINUM_BRASS_INGOT,
-        SlimefunItems.ALUMINUM_BRONZE_INGOT,
-        SlimefunItems.ALUMINUM_INGOT,
-        SlimefunItems.DURALUMIN_INGOT,
-        SlimefunItems.COBALT_INGOT,
-        SlimefunItems.NICKEL_INGOT,
-        SlimefunItems.GILDED_IRON,
-        SlimefunItems.GOLD_4K,
-        SlimefunItems.GOLD_6K,
-        SlimefunItems.GOLD_8K,
-        SlimefunItems.GOLD_10K,
-        SlimefunItems.GOLD_12K,
-        SlimefunItems.GOLD_14K,
-        SlimefunItems.GOLD_16K,
-        SlimefunItems.GOLD_18K,
-        SlimefunItems.GOLD_20K,
-        SlimefunItems.GOLD_22K,
-        SlimefunItems.GOLD_24K,
-        SlimefunItems.STEEL_INGOT,
-        SlimefunItems.DAMASCUS_STEEL_INGOT,
-        SlimefunItems.COPPER_INGOT,
-        SlimefunItems.BRASS_INGOT,
-        SlimefunItems.BRONZE_INGOT,
-        SlimefunItems.CORINTHIAN_BRONZE_INGOT,
-        SlimefunItems.HARDENED_METAL_INGOT,
-        SlimefunItems.REINFORCED_ALLOY_INGOT,
-        SlimefunItems.REDSTONE_ALLOY,
-        SlimefunItems.TIN_INGOT,
-        SlimefunItems.ZINC_INGOT,
-        SlimefunItems.LEAD_INGOT,
-        SlimefunItems.SILVER_INGOT,
-        SlimefunItems.MAGNESIUM_INGOT,
-        SlimefunItems.CARBON,
-        SlimefunItems.URANIUM,
-        SlimefunItems.BOOSTED_URANIUM,
-        SlimefunItems.NEPTUNIUM,
-        SlimefunItems.PLUTONIUM,
-        SlimefunItems.SILICON,
-        SlimefunItems.FERROSILICON,
-        SlimefunItems.SOLDER_INGOT,
-        SlimefunItems.BILLON_INGOT,
-        SlimefunItems.SULFATE,
-        SlimefunItems.MAGNET,
-        Items.SLAG,
+        SlimefunItems.ALUMINUM_BRASS_INGOT.item(),
+        SlimefunItems.ALUMINUM_BRONZE_INGOT.item(),
+        SlimefunItems.ALUMINUM_INGOT.item(),
+        SlimefunItems.DURALUMIN_INGOT.item(),
+        SlimefunItems.COBALT_INGOT.item(),
+        SlimefunItems.NICKEL_INGOT.item(),
+        SlimefunItems.GILDED_IRON.item(),
+        SlimefunItems.GOLD_4K.item(),
+        SlimefunItems.GOLD_6K.item(),
+        SlimefunItems.GOLD_8K.item(),
+        SlimefunItems.GOLD_10K.item(),
+        SlimefunItems.GOLD_12K.item(),
+        SlimefunItems.GOLD_14K.item(),
+        SlimefunItems.GOLD_16K.item(),
+        SlimefunItems.GOLD_18K.item(),
+        SlimefunItems.GOLD_20K.item(),
+        SlimefunItems.GOLD_22K.item(),
+        SlimefunItems.GOLD_24K.item(),
+        SlimefunItems.STEEL_INGOT.item(),
+        SlimefunItems.DAMASCUS_STEEL_INGOT.item(),
+        SlimefunItems.COPPER_INGOT.item(),
+        SlimefunItems.BRASS_INGOT.item(),
+        SlimefunItems.BRONZE_INGOT.item(),
+        SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(),
+        SlimefunItems.HARDENED_METAL_INGOT.item(),
+        SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
+        SlimefunItems.REDSTONE_ALLOY.item(),
+        SlimefunItems.TIN_INGOT.item(),
+        SlimefunItems.ZINC_INGOT.item(),
+        SlimefunItems.LEAD_INGOT.item(),
+        SlimefunItems.SILVER_INGOT.item(),
+        SlimefunItems.MAGNESIUM_INGOT.item(),
+        SlimefunItems.CARBON.item(),
+        SlimefunItems.URANIUM.item(),
+        SlimefunItems.BOOSTED_URANIUM.item(),
+        SlimefunItems.NEPTUNIUM.item(),
+        SlimefunItems.PLUTONIUM.item(),
+        SlimefunItems.SILICON.item(),
+        SlimefunItems.FERROSILICON.item(),
+        SlimefunItems.SOLDER_INGOT.item(),
+        SlimefunItems.BILLON_INGOT.item(),
+        SlimefunItems.SULFATE.item(),
+        SlimefunItems.MAGNET.item(),
+        Items.SLAG.item(),
         VanillaItems.IRON_INGOT,
         VanillaItems.GOLD_INGOT,
         VanillaItems.REDSTONE,
@@ -76,8 +76,8 @@ public class LiquidMetal extends SlimefunItem {
         VanillaItems.LAPIS,
         VanillaItems.DIAMOND,
         VanillaItems.EMERALD,
-        SlimefunItems.SALT,
-        SlimefunItems.MAGNESIUM_SALT
+        SlimefunItems.SALT.item(),
+        SlimefunItems.MAGNESIUM_SALT.item()
     );
 
     private static final List<ItemStack> ores = Arrays.asList(
@@ -92,13 +92,13 @@ public class LiquidMetal extends SlimefunItem {
 
     static {
         MELTED_DUSTS.put(SlimefunItems.IRON_DUST, VanillaItems.IRON_INGOT);
-        MELTED_DUSTS.put(SlimefunItems.COPPER_DUST, SlimefunItems.COPPER_INGOT);
-        MELTED_DUSTS.put(SlimefunItems.ALUMINUM_DUST, SlimefunItems.ALUMINUM_INGOT);
+        MELTED_DUSTS.put(SlimefunItems.COPPER_DUST, SlimefunItems.COPPER_INGOT.item());
+        MELTED_DUSTS.put(SlimefunItems.ALUMINUM_DUST, SlimefunItems.ALUMINUM_INGOT.item());
         MELTED_DUSTS.put(SlimefunItems.GOLD_DUST, VanillaItems.GOLD_INGOT);
-        MELTED_DUSTS.put(SlimefunItems.SILVER_DUST, SlimefunItems.SILVER_INGOT);
-        MELTED_DUSTS.put(SlimefunItems.LEAD_DUST, SlimefunItems.LEAD_INGOT);
-        MELTED_DUSTS.put(SlimefunItems.TIN_DUST, SlimefunItems.TIN_INGOT);
-        MELTED_DUSTS.put(SlimefunItems.MAGNESIUM_DUST, SlimefunItems.MAGNESIUM_INGOT);
+        MELTED_DUSTS.put(SlimefunItems.SILVER_DUST, SlimefunItems.SILVER_INGOT.item());
+        MELTED_DUSTS.put(SlimefunItems.LEAD_DUST, SlimefunItems.LEAD_INGOT.item());
+        MELTED_DUSTS.put(SlimefunItems.TIN_DUST, SlimefunItems.TIN_INGOT.item());
+        MELTED_DUSTS.put(SlimefunItems.MAGNESIUM_DUST, SlimefunItems.MAGNESIUM_INGOT.item());
     }
 
     public LiquidMetal(SlimefunItemStack item, ItemStack solid) {

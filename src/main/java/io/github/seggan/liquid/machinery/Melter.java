@@ -39,20 +39,20 @@ public class Melter extends AContainer implements RecipeDisplayItem {
         registerRecipe(
             3,
             new ItemStack[]{new ItemStack(Material.COAL), new ItemStack(Material.BUCKET)},
-            new ItemStack[]{liquids.get(SlimefunItems.CARBON)}
+            new ItemStack[]{liquids.get(SlimefunItems.CARBONADO.item()).item()}
         );
 
         registerRecipe(
             3,
             new ItemStack[]{new ItemStack(Material.CHARCOAL), new ItemStack(Material.BUCKET)},
-            new ItemStack[]{liquids.get(SlimefunItems.CARBON)}
+            new ItemStack[]{liquids.get(SlimefunItems.CARBONADO.item()).item()}
         );
 
         for (ItemStack metal : liquids.keySet()) {
             registerRecipe(
                 3,
                 new ItemStack[]{metal, new ItemStack(Material.BUCKET)},
-                new ItemStack[]{liquids.get(metal)}
+                new ItemStack[]{liquids.get(metal).item()}
             );
         }
         BiMap<ItemStack, SlimefunItemStack> crystals = LiquidMetal.getLiquidCrystals();
@@ -60,7 +60,7 @@ public class Melter extends AContainer implements RecipeDisplayItem {
             registerRecipe(
                 3,
                 new ItemStack[]{crystal, new ItemStack(Material.BUCKET)},
-                new ItemStack[]{crystals.get(crystal)}
+                new ItemStack[]{crystals.get(crystal).item()}
             );
         }
         BiMap<ItemStack, SlimefunItemStack> ores = LiquidMetal.getLiquidOres();
@@ -68,15 +68,15 @@ public class Melter extends AContainer implements RecipeDisplayItem {
             registerRecipe(
                 3,
                 new ItemStack[]{ore, new ItemStack(Material.BUCKET)},
-                new ItemStack[]{ores.get(ore)}
+                new ItemStack[]{ores.get(ore).item()}
             );
         }
         BiMap<SlimefunItemStack, ItemStack> dusts = LiquidMetal.getLiquidDusts();
         for (SlimefunItemStack dust : dusts.keySet()) {
             registerRecipe(
                 3,
-                new ItemStack[]{dust, new ItemStack(Material.BUCKET)},
-                new ItemStack[]{liquids.get(dusts.get(dust))}
+                new ItemStack[]{dust.item(), new ItemStack(Material.BUCKET)},
+                new ItemStack[]{liquids.get(dusts.get(dust)).item()}
             );
         }
     }

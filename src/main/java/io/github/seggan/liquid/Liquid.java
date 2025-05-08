@@ -74,43 +74,43 @@ public class Liquid extends JavaPlugin implements SlimefunAddon {
         }
 
         new Melter(Items.CATEGORY, Items.MELTER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-            SlimefunItems.HEATING_COIL, SlimefunItems.HEATING_COIL, SlimefunItems.HEATING_COIL,
-            SlimefunItems.HEATING_COIL, SlimefunItems.ELECTRIFIED_CRUCIBLE_3, SlimefunItems.HEATING_COIL,
-            SlimefunItems.HEATING_COIL, SlimefunItems.HEATING_COIL, SlimefunItems.HEATING_COIL
+            SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item(),
+            SlimefunItems.HEATING_COIL.item(), SlimefunItems.ELECTRIFIED_CRUCIBLE_3.item(), SlimefunItems.HEATING_COIL.item(),
+            SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item()
         }).register(this);
 
         new Solidifier(Items.CATEGORY, Items.SOLIDIFIER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-            SlimefunItems.COOLING_UNIT, SlimefunItems.COOLING_UNIT, SlimefunItems.COOLING_UNIT,
-            SlimefunItems.COOLING_UNIT, SlimefunItems.FREEZER_2, SlimefunItems.COOLING_UNIT,
-            SlimefunItems.COOLING_UNIT, SlimefunItems.COOLING_UNIT, SlimefunItems.COOLING_UNIT
+            SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item(),
+            SlimefunItems.COOLING_UNIT.item(), SlimefunItems.FREEZER_2.item(), SlimefunItems.COOLING_UNIT.item(),
+            SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item()
         }).register(this);
 
         new SpraySolidifier(Items.CATEGORY, Items.SPRAY_SOLIDIFIER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-            SlimefunItems.HEATING_COIL, Items.SOLIDIFIER, SlimefunItems.HEATING_COIL,
-            new ItemStack(Material.IRON_NUGGET), SlimefunItems.COOLING_UNIT, new ItemStack(Material.IRON_NUGGET),
-            SlimefunItems.REINFORCED_PLATE, SlimefunItems.REINFORCED_PLATE, SlimefunItems.REINFORCED_PLATE
+            SlimefunItems.HEATING_COIL.item(), Items.SOLIDIFIER.item(), SlimefunItems.HEATING_COIL.item(),
+            new ItemStack(Material.IRON_NUGGET), SlimefunItems.COOLING_UNIT.item(), new ItemStack(Material.IRON_NUGGET),
+            SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.REINFORCED_PLATE.item()
         }).register(this);
 
         new Mixer(Items.CATEGORY, Items.MIXER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-            SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
-            SlimefunItems.HEATING_COIL, Items.MELTER, SlimefunItems.HEATING_COIL,
-            SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO
+            SlimefunItems.CARBONADO.item(), SlimefunItems.HEATING_COIL.item(), SlimefunItems.CARBONADO.item(),
+            SlimefunItems.HEATING_COIL.item(), Items.MELTER.item(), SlimefunItems.HEATING_COIL.item(),
+            SlimefunItems.CARBONADO.item(), SlimefunItems.HEATING_COIL.item(), SlimefunItems.CARBONADO.item()
         }).register(this);
 
         new Centrifuge(Items.CATEGORY, Items.CENTRIFUGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-            SlimefunItems.REINFORCED_ALLOY_INGOT, new ItemStack(Material.BOWL), SlimefunItems.REINFORCED_ALLOY_INGOT,
-            new ItemStack(Material.BOWL), SlimefunItems.ELECTRIC_DUST_WASHER_3, new ItemStack(Material.BOWL),
-            SlimefunItems.REINFORCED_ALLOY_INGOT, new ItemStack(Material.BOWL), SlimefunItems.REINFORCED_ALLOY_INGOT
+            SlimefunItems.REINFORCED_ALLOY_INGOT.item(), new ItemStack(Material.BOWL), SlimefunItems.REINFORCED_ALLOY_INGOT.item(),
+            new ItemStack(Material.BOWL), SlimefunItems.ELECTRIC_DUST_WASHER_3.item(), new ItemStack(Material.BOWL),
+            SlimefunItems.REINFORCED_ALLOY_INGOT.item(), new ItemStack(Material.BOWL), SlimefunItems.REINFORCED_ALLOY_INGOT.item()
         }).register(this);
 
         new Crystallizer(Items.CATEGORY, Items.CRYSTALLIZER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-            SlimefunItems.COOLING_UNIT, new ItemStack(Material.BOWL), SlimefunItems.COOLING_UNIT,
-            new ItemStack(Material.BOWL), Items.SOLIDIFIER, new ItemStack(Material.BOWL),
-            SlimefunItems.COOLING_UNIT, new ItemStack(Material.BOWL), SlimefunItems.COOLING_UNIT
+            SlimefunItems.COOLING_UNIT.item(), new ItemStack(Material.BOWL), SlimefunItems.COOLING_UNIT.item(),
+            new ItemStack(Material.BOWL), Items.SOLIDIFIER.item(), new ItemStack(Material.BOWL),
+            SlimefunItems.COOLING_UNIT.item(), new ItemStack(Material.BOWL), SlimefunItems.COOLING_UNIT.item()
         }).register(this);
 
         new SlimefunItem(Items.CATEGORY, Items.SLAG, Solidifier.RECIPE_TYPE, new ItemStack[]{
-            LiquidMetal.getLiquids().get(Items.SLAG), null, null,
+            LiquidMetal.getLiquids().get(Items.SLAG.item()).item(), null, null,
             null, null, null,
             null, null, null,
         }).register(this);
@@ -126,7 +126,7 @@ public class Liquid extends JavaPlugin implements SlimefunAddon {
             metal.register(this);
         }
 
-        RecipeType.GRIND_STONE.register(new ItemStack[]{Items.SLAG}, SlimefunItems.SIFTED_ORE);
+        RecipeType.GRIND_STONE.register(new ItemStack[]{Items.SLAG.item()}, SlimefunItems.SIFTED_ORE.item());
 
         MixerCategory.INSTANCE.register(this);
     }
