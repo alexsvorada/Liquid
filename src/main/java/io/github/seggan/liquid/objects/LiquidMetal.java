@@ -66,6 +66,7 @@ public class LiquidMetal extends SlimefunItem {
         SlimefunItems.BILLON_INGOT.item(),
         SlimefunItems.SULFATE.item(),
         SlimefunItems.MAGNET.item(),
+        SlimefunItems.CARBONADO.item(),
         Items.SLAG.item(),
         VanillaItems.IRON_INGOT,
         VanillaItems.GOLD_INGOT,
